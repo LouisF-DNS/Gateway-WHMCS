@@ -19,7 +19,7 @@ Navigate to your WHMCS directory:
 cd /var/www/html/
 ```
 
-### Step 2: Download the DNS Gateway Module
+### Step 2: Download the Gateway SRS Module
 You can download the module using `wget` or `curl`:
 ```bash
 sudo wget -O dns_gateway.zip https://github.com/DomainNameServices/Gateway-WHMCS/raw/master/dns_gateway.zip
@@ -42,7 +42,7 @@ To configure your WHMCS to use the DNS Gateway, follow these steps:
 1. Log into your **WHMCS admin** panel.
 2. Navigate to **Setup** menu > **Products/Services** > **Domain Registrars**.
 3. Activate the DNS Gateway by clicking **Activate** next to it.
-4. Enter your DNS Gateway EPP username and password. To test the module before going live, use your OT&E credentials and enable "OTE Testing Mode".
+4. Enter your Portal username and password. To test the module before going live, enable "OTE Testing Mode".
    ![Configuration Settings](configure.png)
 
 ### Optional Settings
@@ -69,4 +69,4 @@ For support, please contact [support@dns.business](mailto:support@dns.business).
 
 ### About Us
 
-DNS Africa Ltd is a GBC1 private company incorporated in Mauritius, and Domain Name Services (Pty) Ltd is a private company based in South Africa. As part of the DNS.Business group, we are a team of domain industry experts dedicated to providing robust, adaptable, and cost-effective software solutions. Learn more about us at [www.dns.business](http://www.dns.business).
+DNS Africa Ltd is a GBC1 private company incorporated in the Republic of Mauritius and Domain Name Services (Pty) Ltd is a private company incorporated and based in South Africa. These two organizations fall under the DNS.Business umbrella. Together we are a specialised team of domain industry experts committed to providing our registry and registrar partners and clients with highly adaptable, robust and cost effective software solutions. Learn more about us at [www.dns.business](http://www.dns.business).
